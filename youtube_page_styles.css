@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------*/
+
+body {
+	background-color: #eaecef;
+}
+
+header {
+	background-color: white;
+}
+
+div {
+	background-color: white;
+}
+
+#logo {
+	display: inline;
+	height: 70px;
+	border-color: black;
+	float: left;
+	margin-top: -10px;
+}
+
+#search {
+	display: inline;
+	margin-left: 150px;
+	text-align: center;
+}
+
+input {
+	margin-top: 30px;
+	width: 450px;
+	margin-top: 10px;
+	padding: 6px;
+
+}
+
+input[type="submit"] {
+	width: 60px;
+}
+
+#left {
+	float: left;
+	margin-top: 20px;
+	margin-left: -75px;
+}
+
+iframe {
+	width: 845px;
+	height: 475px;
+}
+
+#main-video-info {
+	float: left;
+	margin-top: 10px;
+	margin-left: 37px;
+	width: 845px;
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+#main-video-username {
+	padding-top: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+	color: gray;
+	float: left;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+#user-logo {
+	width: 50px;
+	padding-top: 10px;
+	float: left;
+}
+
+#main-video-views {
+	float: right;
+	padding-top: 40px;
+	font-size: 1.3em;
+	color: gray;
+}
+
+aside {
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+#thumbnail-nav {
+	float: right;
+	box-sizing: border-box;
+}
+
+.thumbnails {
+	padding: 10px 15px;
+	width: 380px;
+}
+
+#next-up-video {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #5e5f60;
+}
+
+.thumbnail-img {
+	width: 150px;
+}
+
+.thumbnail-text {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 7px;
+	width: 210px;
+	font-family: Arial;
+	color: #595959;
+}
+
+.thumbnail-title {
+	font-weight: bold;
+	white-space: normal;
+	font-size: .90em;
+}
+
+.thumbnail-title:hover {
+	color: #5b89d3;
+}
+
+.thumbnail-username {
+	font-size: .70em;
+	color: gray;
+	padding-top: 5px;
+}
+
+.thumbnail-views {
+	font-size: .70em;
+	color: gray;
+	padding-top: 3px;
+}
+
+/* https://www.thaneeya.com/sugar-skull-art/ */
